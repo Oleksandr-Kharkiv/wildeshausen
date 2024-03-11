@@ -1,0 +1,49 @@
+.contactsWrap {
+  display: flex;
+  justify-content: center;
+}
+.contacts {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  color: var(--text-color);
+}
+@media (min-width: 320px) {
+  .contacts {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+}
+
+.contact + .contact {
+  margin-top: 3px;
+}
+
+.emailLinks,
+.phoneLinks {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 5px;
+  position: relative;
+}
+
+.emailLinks::before,
+.phoneLinks::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color);
+  transition: width 1500ms ease, background-color 1500ms ease;
+}
+
+.emailLinks:hover::before,
+.phoneLinks:hover::before {
+  background-color: var(--text-color);
+  width: 100%;
+}
+.contact:nth-child(9) {
+  margin-top: 20px;
+}
