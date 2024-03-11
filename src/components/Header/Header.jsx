@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import css from './Header.module.css';
-import Logo from '../Logo/Logo.jsx';
+// import Logo from '../Logo/Logo.jsx';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher.jsx';
 import handleScroll from 'js/handleScroll.js';
 
@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <div className={`${css.headerWrap} ${scrolled ? css.scrolled : ''}`}>
-      <Logo />
+      {/* <Logo /> */}
       <LanguageSwitcher />
     </div>
   );
