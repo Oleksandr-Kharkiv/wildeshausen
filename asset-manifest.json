@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wildeshausen/static/css/main.63fb2623.css",
-    "main.js": "/wildeshausen/static/js/main.f4e975c4.js",
+    "main.js": "/wildeshausen/static/js/main.79b84dbc.js",
     "static/media/icons.svg": "/wildeshausen/static/media/icons.310295bc2085f5ba943c96eb5e9b7299.svg",
     "index.html": "/wildeshausen/index.html",
     "main.63fb2623.css.map": "/wildeshausen/static/css/main.63fb2623.css.map",
-    "main.f4e975c4.js.map": "/wildeshausen/static/js/main.f4e975c4.js.map"
+    "main.79b84dbc.js.map": "/wildeshausen/static/js/main.79b84dbc.js.map"
   },
   "entrypoints": [
     "static/css/main.63fb2623.css",
-    "static/js/main.f4e975c4.js"
+    "static/js/main.79b84dbc.js"
   ]
 }
