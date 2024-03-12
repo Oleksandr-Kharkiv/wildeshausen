@@ -10,10 +10,10 @@ const FaviconAndTitle = () => {
 
   const title =
     language === 'de'
-      ? 'ZIELE DER ZUKUNFT E.V.'
+      ? 'WILDESHAUSEN'
       : language === 'en'
-      ? 'GOALS OF THE FUTURE'
-      : 'ЦІЛІ МАЙБУТНЬОГО';
+      ? 'WILDESHAUSEN'
+      : 'ВІЛЬДЕСГАУЗЕН';
  
       useEffect(() => {
         document.title = title;
